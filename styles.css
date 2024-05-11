@@ -15,6 +15,7 @@
     top:0px;
     right:0px;
     left: 0px;
+    z-index: 1000;
 }
 
 .left {
@@ -98,11 +99,14 @@
     height:380px;
     width:650px;
     transition: opacity 0.4s;
+    position: relative;
+    z-index: 1;
 }
 
 .car-pics:hover{
     opacity: 0.85;
     cursor: pointer;
+    
 }
 
 .carname {
