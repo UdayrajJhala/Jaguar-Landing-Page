@@ -130,13 +130,13 @@
     border-width: 1px;
 }
 
-.explore-btn {
+.explore-btn, .options-btn {
     font-size: 12px;
     font-weight: bold;
     margin-top:20px;
 }
 
-.explore-btn:hover {
+.explore-btn:hover, .options-btn:hover {
     cursor: pointer;
 }
 
@@ -172,4 +172,57 @@
 
 .learn-btn {
     margin-left: 355px;
+}
+
+.options-container {
+    display: flex;
+    flex:1;
+    height: 175px;
+}
+
+.individual-container-1, .individual-container-2, .individual-container-3, .individual-container-4 {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border-left: 1.5px solid white; 
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.logos {
+    height: 45px;
+    width: 45px;
+}
+
+.individual-container-1 {
+    padding-left: 80px;
+    border:none;
+}
+
+.individual-container-1:hover,.individual-container-2:hover,.individual-container-3:hover,.individual-container-4:hover{
+    text-decoration: underline;
+}
+
+.options-btn {
+    font-size: 15px;
+}
+
+.options-container:hover {
+    cursor: pointer;
+}
+
+.options-desc {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.end {
+    background-color:#3C3C3B;
+    display: flex;
+    flex-direction: column;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
 }
