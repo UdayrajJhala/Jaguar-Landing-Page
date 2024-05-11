@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3C3C3B;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+
+    position: fixed;
+    top:0px;
+    right:0px;
+    left: 0px;
+}
+
+.left {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.middle {
+    flex: 1;
+}
+
+.right {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo {
+    height:80px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navbar-btn {
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-btn:hover {
+    background-color: rgb(90, 88, 88);
+    cursor: pointer;
+}
+
+.navbar-logo {
+    height:25px;
+    margin-right: 10px;
+}
+
+.video {
+    width: 1335px;
+    margin-left: 67px;
+    margin-right: 67px;
+}
+
+.video-container {
+    padding-bottom: 80px;
+    background-color: #141414;
+}
+
+.car-container {
+    display: flex;
+    padding-right: 67px;
+    padding-left: 67px;
+    padding-bottom: 100px;
+    padding-top: 67px;
+    justify-content: space-between;
+}
+
+.right-car {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-left: 20px;
+}
+
+.left-car {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-right: 14px;
+}
+
+.car-pics {
+    height:380px;
+    width:650px;
+}
+
+.carname {
+    padding-top:15px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 2px;
+}
+
+.desc {
+    font-size: 12px;
+}
+
+.design-btn, .learn-btn {
+    margin-top: 20px;
+    width:170px;
+    height: 45px;
+    background-color: #3C3C3B;
+    color: white;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.4s, border-width 0.4s, border-color 0.4s, border-style 0.4s;
+}
+
+.design-btn:hover, .learn-btn:hover {
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    cursor:pointer;
+    border-width: 1px;
+}
+
+.explore-btn {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+.explore-btn:hover {
+    cursor: pointer;
+}
+
+.explore-text {
+    margin-left: 5px;
+}
+
+.explore-text:hover {
+    text-decoration: underline;
+}
+
+.racecar-container{
+    padding: 67px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+}
+
+.racecar {
+    width: 1335px;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.team-desc {
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+.learn-btn {
+    margin-left: 355px;
+}
