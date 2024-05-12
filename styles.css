@@ -19,20 +19,21 @@
 }
 
 .left {
-    width: 500px;
     display: flex;
     align-items: center;
+    flex:2;
 }
 
 .middle {
     flex: 1;
+    min-width: 20px;
 }
 
 .right {
-    width: 270px;
     display: flex;
     align-items: center;
     justify-content: end;
+    flex:1;
 }
 
 .logo {
@@ -62,14 +63,15 @@
 }
 
 .video {
-    width: 1335px;
-    margin-left: 67px;
-    margin-right: 67px;
+    max-width: 1335px;
+    flex:1
 }
 
 .video-container {
     padding-bottom: 80px;
     background-color: #141414;
+    display: flex;
+    justify-content: center;
 }
 
 .car-container {
@@ -86,6 +88,7 @@
     flex-direction: column;
     flex:1;
     margin-left: 20px;
+    justify-content: center;
 }
 
 .left-car {
@@ -93,14 +96,17 @@
     flex-direction: column;
     flex:1;
     margin-right: 14px;
+    justify-content: center;
 }
 
 .car-pics {
-    height:380px;
-    width:650px;
+    width:100%;
+    max-width:100%;
+    height: auto;
     transition: opacity 0.4s;
     position: relative;
     z-index: 1;
+    flex:1;
 }
 
 .car-pics:hover{
@@ -163,10 +169,13 @@
     background-color: #141414;
     display: flex;
     flex-direction: column;
+    justify-content: center ;
 }
 
 .racecar {
-    width: 1335px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .team-name {
@@ -281,6 +290,7 @@ ul {
     display: flex;
     align-items: center;
     border-bottom: 1px solid white;
+
 }
 
 .search {
