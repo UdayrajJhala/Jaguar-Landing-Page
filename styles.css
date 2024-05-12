@@ -29,11 +29,24 @@
     min-width: 20px;
 }
 
+.menu-btn {
+    background-color: #3C3C3B; 
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    display: none;
+}
+
+.menu-btn:hover {
+    cursor: pointer;
+}
 .right {
     display: flex;
     align-items: center;
     justify-content: end;
     flex:1;
+    position: relative;
 }
 
 .logo {
@@ -244,15 +257,7 @@
     margin-top: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    .options-desc {
-        display: none;
-    }
 
-    .learn-btn {
-        display: none;
-    }
-}
 .end {
     background-color:#3C3C3B;
     display: flex;
@@ -337,3 +342,36 @@ input {
     margin-right: 67px;
 }
 
+@media only screen and (max-width: 768px) {
+    .options-desc {
+        display: none;
+    }
+
+    .learn-btn {
+        display: none;
+    }
+
+    .options-btn {
+        font-size: 10px;
+    }
+
+    .lists,ul {
+        display: none;
+    }
+}
+
+.menu-icon {
+    width: 35px; 
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .navbar-btn {
+        display: none;
+    }
+
+    .menu-icon, .menu-btn {
+        display: inline-block;
+    }
+}
